@@ -1,3 +1,8 @@
+# Báo cáo: xây dựng hệ thống prompt trả lời khách hàng tự động thông qua chuỗi prompt liên kết.
+## Quy trình kết hợp:
+1. Chain-of-Thought (CoT): Cho mô hình phân tích cảm xúc và mức độ lỗi khi đọc phản hồi khách hàng.
+2. Prompt Chaining: Chia nhỏ tác vụ thành các bước tuần tự (Phân tích -> Đề xuất giải pháp -> Soạn email).
+3. Chống đứt gãy & Lỗi biên: Áp dụng cơ chế Batching (xử lý tối đa 3 khách hàng/lượt).
 # Prompt:
 ```
 Bước 1:
